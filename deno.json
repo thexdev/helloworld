@@ -1,0 +1,16 @@
+{
+  "name": "@thexdev/helloworld",
+  "version": "0.1.0",
+  "exports": "./src/main.ts",
+  "publish": {
+    "exclude": [
+      "./.github",
+      "./.vscode",
+      "./.git",
+      "./.DS_Store"
+    ]
+  },
+  "tasks": {
+    "dev": "deno run ./src/main.ts"
+  }
+}
